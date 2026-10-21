@@ -1,0 +1,8 @@
+# Real client metrics and keys must never be committed.
+data/*
+!data/TEMPLATE.json
+node_modules/
+.env
+*.zip
+*-key*.json
+.DS_Store
